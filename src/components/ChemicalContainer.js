@@ -25,8 +25,8 @@ const ChemicalContainer = ({ show, chemical, totalQuantity, currentQuantity }) =
                         <thead>
                             <tr>
                                 <th>Dyes/Chemical</th>
-                                <th>Total Chemical Quantity</th>
-                                <th>Chemical for Current Dispo </th>
+                                <th>Total Quantity</th>
+                                <th>Quantity for Current Dispo </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -94,6 +94,8 @@ table{
             align-items: center;
             border-bottom: 1px solid #000;
             text-align: left;
+            font-size: 1rem;
+
             
             &:first-child{
                 border-top: 1px solid #000;
